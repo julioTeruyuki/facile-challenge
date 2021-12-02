@@ -15,7 +15,7 @@
     - Postgrsql: https://www.postgresql.org/download/
 
 .env: Criar um arquivo ".env" para colocar as configurações do sistema
-  - Exemplo:
+  - Variaveis:
 
     ```bash
     USUARIO_BANCO=usuario-banco
@@ -33,7 +33,12 @@ Para Criar uma senha jwt digite no terminal:
 
 Bash:
 
-    ```bash
     npm install --save
     npx sequelize-cli db:migrate
-    ```
+
+
+# Como rodar a Aplicação
+
+Digite no terminal bash:
+
+    npm start
