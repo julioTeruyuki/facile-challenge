@@ -15,7 +15,6 @@
 Uma Aplicação Node.js usando express. Um CRUD simples com banco de dados PostgreSQL
 
 Dependências: 
-
 - body-parser (^1.19.0)
 - dotenv (^10.0.0)
 - ejs (^3.1.6)
@@ -30,12 +29,12 @@ Dependências:
 - sequelize-cli (^6.3.0)
 
 # Dificuldades
-    - Implementação de verificações, não sabia como fazer um tratamento de erros adequado as rotas.
-    - Uma das primeiras vezes mexendo com o sequelize então demorou mais tempo do que devia para configura-lo.
+- Implementação de verificações, não sabia como fazer um tratamento de erros adequado as rotas.
+- Uma das primeiras vezes mexendo com o sequelize então demorou mais tempo do que devia para configura-lo.
 
 # Requisitos da Aplicação
-    - Node.js: https://nodejs.org/en/
-    - Postgrsql: https://www.postgresql.org/download/
+- Node.js: https://nodejs.org/en/
+- Postgrsql: https://www.postgresql.org/download/
 
 .env: Criar um arquivo ".env" para colocar as configurações do sistema
   - Variaveis:
