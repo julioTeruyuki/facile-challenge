@@ -10,6 +10,28 @@
 
 <p align="center">Facile Challenge</p>
 
+# Descrição
+
+Uma Aplicação Node.js usando express. Um CRUD simples com banco de dados PostgreSQL
+
+Dependências: 
+    - body-parser (^1.19.0),
+    - dotenv (^10.0.0),
+    - ejs (^3.1.6),
+    - express (^4.17.1),
+    - express-ejs-layouts (^2.5.1),
+    - http (*),
+    - jsonwebtoken (^8.5.1),
+    - nodemon (^2.0.12),
+    - path (^0.12.7),
+    - pg (^8.7.1),
+    - sequelize (*),
+    - sequelize-cli (^6.3.0)
+
+# Dificuldades
+    - Implementação de verificações, não sabia como fazer um tratamento de erros adequado as rotas.
+    - Uma das primeiras vezes mexendo com o sequelize então demorou mais tempo do que devia para configura-lo.
+
 # Requisitos da Aplicação
     - Node.js: https://nodejs.org/en/
     - Postgrsql: https://www.postgresql.org/download/
