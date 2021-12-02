@@ -68,3 +68,7 @@ Bash:
 Digite no terminal bash:
 
     npm start
+
+# Documentação das Rotas
+
+Postman: https://documenter.getpostman.com/view/14617822/UVJfjbLK
