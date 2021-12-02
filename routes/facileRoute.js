@@ -3,6 +3,9 @@ const facileController = require('../controllers/facileController')
 
 const router = Router()
 
+
+router.get('/', facileController.renderFacile)
+
 router.get('/facile', facileController.faciles)
 router.get('/facile/:id', facileController.facile)
 

@@ -3,10 +3,25 @@ const jwt = require("jsonwebtoken")
 require('dotenv').config();
 
 class Facile {
+
+    static async renderFacile(req, res) {
+        try {
+            return res.render('pages/facile')
+            
+        } catch (error) {
+            console.log(error)
+            return res.render('pages/Erros/semRota')
+        }
+    }
+
     static async faciles(req, res){
         try {
 
-            const todosDados = await db.facile.findAll()
+            const todosDados = await db.facile.findAll({
+                order: [
+                    ['id', 'DESC']
+                ]
+            })
             todosDados.forEach(facile => {
                 facile.encripted_name = jwt.verify(facile.encripted_name, process.env.CHAVE_JWT)
             })

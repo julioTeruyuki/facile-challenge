@@ -28,9 +28,11 @@ Dependências:
 - sequelize (*)
 - sequelize-cli (^6.3.0)
 
+
 # Dificuldades
 - Implementação de verificações, não sabia como fazer um tratamento de erros adequado as rotas.
 - Uma das primeiras vezes mexendo com o sequelize então demorou mais tempo do que devia para configura-lo.
+- Não Consegui upar a Aplicação em um servidor publico do Heroku
 
 # Requisitos da Aplicação
 - Node.js: https://nodejs.org/en/
@@ -68,6 +70,12 @@ Bash:
 Digite no terminal bash:
 
     npm start
+
+# Diferenciais
+
+- Criei uma Visualização em EJS para ser testado como um sistema WEB
+  - Ferramentas utilizadas: Jquery e Bootstrap 4
+- Para acessar essa visualização abra o navegador e entre no link: http://ip-que-baixou:3000
 
 # Documentação das Rotas
 
