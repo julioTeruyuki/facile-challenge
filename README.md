@@ -31,6 +31,10 @@ Para Criar uma senha jwt digite no terminal:
 
 # Comandos para finalizar instalação
 
+Postgresql:
+
+    create database facile;
+
 Bash:
 
     npm install --save
