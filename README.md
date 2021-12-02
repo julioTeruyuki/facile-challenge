@@ -32,6 +32,7 @@ Para Criar uma senha jwt digite no terminal:
 # Comandos para finalizar instalação
 
 Bash:
+
     ```bash
     npm install --save
     npx sequelize-cli db:migrate
