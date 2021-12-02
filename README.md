@@ -18,7 +18,6 @@
   - Exemplo:
 
     ```bash
-    # Banco de dados
     USUARIO_BANCO=usuario-banco
     SENHA_BANCO=senha-banco
     HOST_BANCO=host-banco
@@ -28,13 +27,12 @@
 
 Para Criar uma senha jwt digite no terminal:
 
-    ```bash
     node -e "console.log(require('crypto').randomBytes(256).toString('base64'))"
+
+# Comandos para finalizar instalação
+
+Bash:
+    ```bash
+    npm install --save
+    npx sequelize-cli db:migrate
     ```
-
-# Comandos para baixar as dependencias da aplicação
-
-```bash
-npm install --save
-npx sequelize-cli db:migrate
-```
