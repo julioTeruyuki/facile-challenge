@@ -15,6 +15,7 @@
 Uma Aplicação Node.js usando express. Um CRUD simples com banco de dados PostgreSQL
 
 Dependências: 
+
     - body-parser (^1.19.0),
     - dotenv (^10.0.0),
     - ejs (^3.1.6),
